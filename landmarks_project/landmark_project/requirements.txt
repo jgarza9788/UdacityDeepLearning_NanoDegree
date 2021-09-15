@@ -1,0 +1,20 @@
+# pip install -r requirements.txt
+
+###### Requirements without Version Specifiers ######`
+matplotlib
+torch
+torchvision
+opencv-python
+split_folders
+
+
+# https://developer.nvidia.com/cuda-toolkit-archive
+# get cuda 11.4 and install 
+
+# https://pytorch.org/get-started/locally/
+# get the right torch version based on your OS, Cuda version, etc
+
+# you just enabled Cuda!
+
+# specific ones are needed for GPU enabled
+# pip3 install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio===0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
